@@ -140,15 +140,16 @@
                 </tr>    
                 <tr>
                     <td>
-                        <input type="text" id="name" name="name" required> 
+                        <input type="text" id="name" name="name" required><br>
+                        <span class="errorspan"></span> 
                     </td>
                 </tr>   
                 <tr>
-                    <td><label>Phone</label></td>
+                    <td> <label>Phone</label></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="tel" id="Phone" name="phone" placeholder="01022334455" required>
+                        <input type="number" id="Phone" name="phoneNumber"placeholder="01022334455" required>
                     </td>
                 </tr>   
                 <tr>
@@ -161,7 +162,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="btn btn-danger btn-md btn1">Send></div>
+                        <div class="btn btn-danger btn-md btn1"><input type="submit" id="sub" value="Send>"></div>
                     </td>
                 </tr>
             </table>
@@ -245,5 +246,6 @@
     <script src="../Bootstrap/jquery-3.7.0.min.js"></script>
     <script src="../Bootstrap/js/popper.js"></script>
     <script src="../Bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./contact.js"></script>
 </body>
 </html>

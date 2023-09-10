@@ -176,6 +176,17 @@ label
     margin-bottom: 100px;
 }
 
+#sub{
+    background-color: transparent;
+    border: 0;
+    height: 25px;
+    color: white;
+    
+}
+.errorspan{
+    color: red;
+    font-size: 20px;
+}
 /************************/
 .Fot a{
     text-decoration: none;
